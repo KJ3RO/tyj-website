@@ -28,10 +28,6 @@ export default function HomePage() {
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-              {item.badge}
-            </h2>
-
             <div className="text-sm  prose prose-sm dark:prose-invert">
               {item?.image && (
                 <Image
@@ -71,29 +67,6 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "Introduction",
-    image: "/cover.jpeg",
-  },
-  {
-    description: (
-      <>
-        <p>
-          Welcome to our community service website! We are a group of individuals dedicated to
-          making a positive impact in our community through various service projects and events.
-          Whether you are an individual looking to get involved and give back, or an organization
-          seeking volunteers for your cause, we hope to connect you with opportunities to make a
-          difference. We collaborate with BHA and SJA to help protect the environment on Jeju
-          Island. Together, we address environmental issues such as pollution by combining
-          resources. Whether through cleanups, tree planting, or educational campaigns, we work to
-          raise awareness and drive sustainable change in the community. Our community service group
-          stands out by collaborating with other organizations, prioritizing education and
-          awareness, and using an online store to raise funds. We are a group of individuals
-          dedicated to making a positive impact in our community through various service projects
-          and events.
-        </p>
-      </>
-    ),
-    badge: "Our Mission",
     image: "/bazaar1.JPG",
   },
 ];
