@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      {/* <div className="h-40"></div> */}
       <HomePage />
       <Footer />
     </div>
