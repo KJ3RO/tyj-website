@@ -3,10 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 import Image from "next/image";
-import { twMerge } from "tailwind-merge";
-import { TracingBeam } from "@/components/ui/tracing-beam";
-import cover from "../../asset/cover.jpg";
-import bazaar2 from "../../asset/bazaar2.jpg";
 
 export default function HomePage() {
   return (

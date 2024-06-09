@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import { LayoutGrid } from "@/components/ui/layout-grid";
 import Navbar from "../Nav/page";
 import Footer from "../Footer/page";
@@ -20,11 +20,11 @@ export default function LayoutGridDemo() {
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House in the woods</p>
+      <p className="font-bold text-4xl text-white">Cleaning the beach</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful escape from the
-        hustle and bustle of city life.
+        We gathered once a week to clean up different beaches in Jeju. It was a great way to give
+        back to our childhood playgrounds.
       </p>
     </div>
   );
@@ -33,11 +33,11 @@ const SkeletonOne = () => {
 const SkeletonTwo = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">House above the clouds</p>
+      <p className="font-bold text-4xl text-white">Picking trash for our neighbors</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        Perched high above the world, this house offers breathtaking views and a unique living
-        experience. It&apos;s a place where the sky meets home, and tranquility is a way of life.
+        Due to all the convienence stores in Jeju, we found a lot of trash on the streets. We
+        decided to clean abandoned areas and help our neighbors.
       </p>
     </div>
   );
@@ -45,11 +45,12 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Greens all over</p>
+      <p className="font-bold text-4xl text-white">Raising awareness</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house surrounded by greenery and nature&apos;s beauty. It&apos;s the perfect place to
-        relax, unwind, and enjoy life.
+        We created posters and flyers to raise awareness about environmental issues in our
+        community. We also hosted events to educate people about the importance of protecting our
+        planet.
       </p>
     </div>
   );
@@ -57,11 +58,11 @@ const SkeletonThree = () => {
 const SkeletonFour = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">Rivers are serene</p>
+      <p className="font-bold text-4xl text-white">Fundraising for donatiions</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A house by the river is a place of peace and tranquility. It&apos;s the perfect place to
-        relax, unwind, and enjoy life.
+        We participated in multiple bazaars near our home town and school to raise funds for
+        donations and hosting events such as game jams.
       </p>
     </div>
   );
