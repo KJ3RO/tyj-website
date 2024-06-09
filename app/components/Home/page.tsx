@@ -5,6 +5,8 @@ import { LampContainer } from "@/components/ui/lamp";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "@/components/ui/tracing-beam";
+import cover from "../../asset/cover.jpg";
+import bazaar2 from "../../asset/bazaar2.jpg";
 
 export default function HomePage() {
   return (
@@ -70,8 +72,7 @@ const dummyContent = [
       </>
     ),
     badge: "Introduction",
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/cover.jpeg",
   },
   {
     description: (
@@ -93,7 +94,6 @@ const dummyContent = [
       </>
     ),
     badge: "Our Mission",
-    image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/bazaar1.JPG",
   },
 ];
